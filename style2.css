@@ -1,0 +1,215 @@
+@import url("normaliz.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto";
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:visited,
+a:focus,
+a:hover {
+  color: #fff;
+}
+a:hover {
+  text-decoration: underline;
+}
+.block {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 1219px; /* блок не будет расширятся если ширина экрана больше 1219px*/
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.header_container {
+  background-color: #007765;
+  position: sticky;
+  top: 0;
+}
+#problem,
+#PiperCoin,
+#the_team {
+  border-top: 84px solid transparent;
+  margin-top: -75px;
+  background-clip: padding-box;
+}
+
+.img_logo {
+  height: 75%;
+  width: 75%;
+  margin-top: 5%;
+}
+.logo_text {
+  margin-left: auto;
+  margin-right: 0;
+}
+.text_head {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.jambotron {
+  height: 403px;
+  background-image: url("Pictures/jamb.png");
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  margin: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.header {
+  margin: 48px auto auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+.problem {
+  background-color: #eeeeee;
+}
+.problem .block {
+  flex-direction: column;
+}
+.head_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #000000;
+}
+.header_text {
+  margin: auto auto 92px;
+}
+.hero {
+  background-image: url("Pictures/hero.png");
+}
+.hero_text {
+  height: 228px;
+  width: 893px;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  margin: 127px auto 128px;
+}
+.PPC {
+  background-color: #ffffff;
+}
+.PPC .block {
+  flex-direction: column;
+}
+
+.logo_PPC {
+  height: 115px;
+  width: 115px;
+}
+.text_PPC {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+.logo_PPC_cont .text_PPC {
+  display: inline;
+
+  margin-left: 48px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #000000;
+}
+.logo_PPC_cont div {
+  float: left;
+  margin: 0 48px 0 0;
+}
+.head_PPC h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+.PPC .block {
+  margin-bottom: 92px;
+}
+.team {
+  background-color: #eeeeee;
+}
+
+.team_head {
+  margin: auto;
+  padding-top: 58px;
+  padding-bottom: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+figcaption:first-of-type {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.photo_block {
+  width: 200px;
+  display: inline-block;
+  margin: auto 83px 145px;
+}
+.block_command {
+  display: block;
+  text-align: center;
+}
+
+figure {
+  display: table-cell; /* текс в одну строку */
+  text-align: center; /* текс выравнивается по центру */
+}
+.footer {
+  background-color: #333333;
+}
+
+h3 {
+  margin: 50px auto 62px;
+  width: 540px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
