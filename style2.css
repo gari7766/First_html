@@ -185,16 +185,19 @@ figcaption:first-of-type {
 }
 
 .photo_block {
-  width: 200px;
-  display: inline-block;
-  margin: auto 83px 145px;
+  flex-basis: 33%;
 }
 .block_command {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 58px;
+
+
 }
 
 figure {
+  margin: 0 auto
   display: table-cell; /* текс в одну строку */
   text-align: center; /* текс выравнивается по центру */
 }
